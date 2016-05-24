@@ -62,7 +62,7 @@ class CPN:
                 max_value = euclid
 
                 self.max_index = i
-        print("нейрончик намба", self.max_index)
+        print("нейрончик номер", self.max_index)
 
     def set_winner(self):
         for i in range(0, self.kohonen):
@@ -107,8 +107,3 @@ class CPN:
 
     def get_output(self):
         return self.neurons[2]
-
-
-
-
-
